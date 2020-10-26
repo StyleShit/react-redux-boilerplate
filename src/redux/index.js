@@ -1,2 +1,2 @@
 // export all actions
-export * from './data/actions';
+export * as USERS_ACTIONS from './users/actions';
