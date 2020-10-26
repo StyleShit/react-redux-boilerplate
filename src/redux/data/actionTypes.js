@@ -1,5 +1,5 @@
 const ACTIONS = {
-    SET_USERS: 'SET_USERS'
+    SET: 'users/SET'
 };
 
 export default ACTIONS;

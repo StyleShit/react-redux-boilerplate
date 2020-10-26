@@ -12,7 +12,7 @@ const reducer = ( state = defaultState, { type, payload } ) => {
 
     switch( type )
     {
-        case ACTIONS.SET_USERS:
+        case ACTIONS.SET:
             return { ...state, users: payload.users };
 
         default:

@@ -5,7 +5,7 @@ import ACTIONS from './actionTypes';
 export const setUsers = users => {
 
     return {
-        type: ACTIONS.SET_USERS,
+        type: ACTIONS.SET,
         payload: {
             users: users
         }
