@@ -1,6 +1,5 @@
 import React from 'react';
-import { Provider } from 'react-redux';
-import store from './redux/store';
+import withStore from './HOCs/withStore';
 
 import './css/App.css';
 
@@ -8,10 +7,8 @@ import './css/App.css';
 function App()
 {
 	return (
-		<Provider store={ store }>
-			<h1>It Works!</h1>
-		</Provider>
+		<h1>It Works!</h1>
 	);
 }
 
-export default App;
+export default withStore( App );
